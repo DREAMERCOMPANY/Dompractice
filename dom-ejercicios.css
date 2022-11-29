@@ -125,3 +125,30 @@ img{
     color: var(--second-color);
     background-color:var(--main-color) ;
 }
+
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section h2{
+    letter-spacing: 1rem;
+}
+
+.buttons-clock button{
+    border: 2px solid var(--main-color);
+    width: 120px;
+    margin-right: 8px ;
+    border-radius: 4px;
+    height: 24px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+#reloj{
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+}
