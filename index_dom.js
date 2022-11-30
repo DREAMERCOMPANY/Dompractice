@@ -2,6 +2,8 @@
 import hamburguerMenu from "./menu_hamburguesa.js";
 //two functions are imported; "digitalClock" and "alarm" from the clock.js file
 import {digitalClock,alarm } from "./reloj.js"; 
+import { shortcuts } from "./teclado.js";
+import { moveBall } from "./teclado.js";
 const d = document
 
 d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is "accessed" and "used" with different functions
@@ -11,6 +13,13 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     digitalClock("#reloj","#activar-reloj","#desactivar-reloj") 
     //"alarm" function is accessed and parameters are established
     alarm("./Assets/alarma.mp3","#activar-alarma","#desactivar-alarma")
+})
+
+
+//this event happends for "keysdown"
+d.addEventListener("keydown", (e)=>{
+    shortcuts(e)
+    moveBall(e,".ball",".stage")
 })
 
 

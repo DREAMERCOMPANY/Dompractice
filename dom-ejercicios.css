@@ -152,3 +152,19 @@ img{
     font-size: 15px;
     letter-spacing: 0.2rem;
 }
+
+/***Eventos del teclado***/
+
+.stage{
+    display: flex;
+    min-height: 50vh;
+    background-color: #222;
+}
+
+.ball{
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
