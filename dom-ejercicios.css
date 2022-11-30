@@ -134,7 +134,7 @@ img{
 }
 
 .section h2{
-    letter-spacing: 1rem;
+    letter-spacing: 0.7rem;
 }
 
 .buttons-clock button{
@@ -167,4 +167,9 @@ img{
     height: 4rem;
     border-radius: 50%;
     background-color: var(--main-color);
+}
+
+#seccion3 #countdown {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
 }
