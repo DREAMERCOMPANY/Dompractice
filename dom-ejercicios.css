@@ -205,3 +205,33 @@ img{
     opacity: 0;
     visibility: hidden;
 }
+
+/**Dark theme button***/
+
+.dark-theme-btn{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    left: 1vw;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--main-color);
+    color: #222;
+    outline: 0;
+    border: 0;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.4s ease-out;
+}
+
+.dark-theme-btn:hover{
+    background-color: #222;
+    color: var(--main-color);
+}
+
+.dark-mode{
+    background-color: #222;
+    color: var(--main-color);
+}
