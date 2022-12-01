@@ -1,4 +1,5 @@
 //import function "hamburguerMenu" from file "menu_hamburguesa.js"
+import scrollTopButton from "./boton_scroll.js";
 import countdown from "./cuenta_regresiva.js";
 import hamburguerMenu from "./menu_hamburguesa.js";
 //two functions are imported; "digitalClock" and "alarm" from the clock.js file
@@ -16,6 +17,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     //"alarm" function is accessed and parameters are established
     alarm("./Assets/alarma.mp3","#activar-alarma","#desactivar-alarma")
     countdown("countdown","May 29,2023 11:41:22","Feliz Cumpleaños Dreamer 🐒")
+    scrollTopButton(".scroll-top-btn")
 })
 
 
