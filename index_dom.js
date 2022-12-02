@@ -19,7 +19,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     alarm("./Assets/alarma.mp3","#activar-alarma","#desactivar-alarma")
     countdown("countdown","May 29,2023 11:41:22","Feliz Cumpleaños Dreamer 🐒")
     scrollTopButton(".scroll-top-btn")
-    darktheme(".dark-theme-btn","dark-mode")
+        
 })
 
 
@@ -29,5 +29,6 @@ d.addEventListener("keydown", (e)=>{
     moveBall(e,".ball",".stage")
 })
 
+darktheme(".dark-theme-btn","dark-mode",".ball",".stage")
 
 
