@@ -240,3 +240,41 @@ img{
     background-color: #222;
     color: var(--main-color);
 }
+
+.tester{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.url,.width,.height{
+    width: 30%;
+    border: 1px solid var(--main-color);
+    height: 22px;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+}
+
+.btn-probar,.btn-cerrar{
+    width: 80px;
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    border-radius: 4px;
+    height: 25px;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-probar:hover,.btn-cerrar:hover{
+    background-color: var(--main-color);
+    
+}
