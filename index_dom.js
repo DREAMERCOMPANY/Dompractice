@@ -5,6 +5,7 @@ import darktheme from "./dark_mode.js";
 import userDeviceInfo from "./deteccion_dispositivos.js";
 import networkStatus from "./deteccion_red.js";
 import webCam from "./deteccion_webcam.js";
+import getGeolocation from "./geolocalizacion.js";
 import hamburguerMenu from "./menu_hamburguesa.js";
 import responsiveMedia from "./objeto_responsive.js";
 import responsiveTester from "./prueba_responsive.js";
@@ -36,6 +37,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     responsiveTester("responsive-tester")  
     userDeviceInfo("user-device")
     webCam("webcam")
+    getGeolocation("geolocation")
     
 
 })
