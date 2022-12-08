@@ -349,4 +349,29 @@ color: #fff;
     
 }
 
+.players{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.draw-button{
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 16px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #222;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: var(--main-color);
+   
+}
+
+.result-draw{
+    margin-top: 18px;
+    
+}
+
 

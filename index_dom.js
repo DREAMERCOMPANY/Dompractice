@@ -12,6 +12,7 @@ import responsiveMedia from "./objeto_responsive.js";
 import responsiveTester from "./prueba_responsive.js";
 //two functions are imported; "digitalClock" and "alarm" from the clock.js file
 import {digitalClock,alarm } from "./reloj.js"; 
+import draw from "./sorteo.js";
 import { shortcuts } from "./teclado.js";
 import { moveBall } from "./teclado.js";
 
@@ -40,6 +41,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     webCam("webcam")
     getGeolocation("geolocation")
     searchFilters(".card-filter",".card")
+    draw("#winner-btn",".player")
     
 
 })
