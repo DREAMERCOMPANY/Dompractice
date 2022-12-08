@@ -5,6 +5,7 @@ import darktheme from "./dark_mode.js";
 import userDeviceInfo from "./deteccion_dispositivos.js";
 import networkStatus from "./deteccion_red.js";
 import webCam from "./deteccion_webcam.js";
+import searchFilters from "./filtro_busquedas.js";
 import getGeolocation from "./geolocalizacion.js";
 import hamburguerMenu from "./menu_hamburguesa.js";
 import responsiveMedia from "./objeto_responsive.js";
@@ -38,6 +39,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     userDeviceInfo("user-device")
     webCam("webcam")
     getGeolocation("geolocation")
+    searchFilters(".card-filter",".card")
     
 
 })
