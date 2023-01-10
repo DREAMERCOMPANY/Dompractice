@@ -17,6 +17,7 @@ import scrollSpy from "./scroll_spia.js";
 import draw from "./sorteo.js";
 import { shortcuts } from "./teclado.js";
 import { moveBall } from "./teclado.js";
+import smartVideo from "./video_inteligente.js";
 
 const d = document
 
@@ -46,6 +47,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     draw("#winner-btn",".player")
     slider()
     scrollSpy()
+    smartVideo()
     
 
 })
