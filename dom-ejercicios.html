@@ -35,7 +35,7 @@
             <a href="#seccion11"data-scroll-spy>Digital Draw</a>
             <a href="#seccion12"data-scroll-spy>Responsive slider</a>
             <a href="#seccion13"data-scroll-spy>smart video</a>
-            <a href="#seccion14"data-scroll-spy>section 14</a>
+            <a href="#seccion14"data-scroll-spy>form validations</a>
             <a href="#seccion15"data-scroll-spy>section 15</a>
 
 
@@ -186,7 +186,22 @@
             
         </section>
         <section id="seccion14" class="section" data-scroll-spy>
-            <h2>Section 14</h2>
+            <h2>form validations</h2>
+            <form class="contact-form">
+                <legend>send us your comments</legend>
+                <input  type="text" name="name" placeholder="type your name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                title="Nombre solo acepta letras y espacios en blanco" required>
+                <input type="email" name="email" placeholder="type your email" title="wrong email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <input type="text" name="subject" placeholder="subject to treat" title="subject is required" required>
+                <textarea name="comments" id="" cols="50" rows="5" placeholder="type your comments" data-pattern="^.{1,255}$" required title="comment must not exceed 255 characters"></textarea>
+                <input type="submit" value="send" required>
+                <div class="contact-form-loader none">
+                    <img src="./Assets/circles.svg" alt="cargando">
+                </div>
+                <div class="contact-form-response none">
+                    <p>data had been sent</p>
+                </div>
+            </form>
         </section>
         <section id="seccion15" class="section" data-scroll-spy>
             <h2>Section 15</h2>
