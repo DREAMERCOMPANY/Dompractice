@@ -508,7 +508,7 @@ color: #fff;
 
 /**Contact form validations***/
 
-.contact-form{
+/* .contact-form{
     
     margin-left:auto;
     margin-right:auto;
@@ -597,8 +597,26 @@ textarea[required]:invalid {
 
     }
 
-  }
+  } */
 
+  /**Voice**/
+ #speech-select{
+    width: 50%;
+    margin: 0 auto;
+ }
+
+ #speech-text{
+    width: 50%;
+    margin: 0 auto;
+ }
+
+ #speech-btn{
+    width: 10%;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+ }
 
 
 

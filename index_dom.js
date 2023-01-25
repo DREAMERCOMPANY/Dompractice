@@ -9,6 +9,7 @@ import webCam from "./deteccion_webcam.js";
 import searchFilters from "./filtro_busquedas.js";
 import getGeolocation from "./geolocalizacion.js";
 import hamburguerMenu from "./menu_hamburguesa.js";
+import speechReader from "./narrador.js";
 import responsiveMedia from "./objeto_responsive.js";
 import responsiveTester from "./prueba_responsive.js";
 //two functions are imported; "digitalClock" and "alarm" from the clock.js file
@@ -17,6 +18,7 @@ import scrollSpy from "./scroll_spia.js";
 import draw from "./sorteo.js";
 import { shortcuts } from "./teclado.js";
 import { moveBall } from "./teclado.js";
+//import contactFormValidations from "./validaciones_formulario.js";
 import smartVideo from "./video_inteligente.js";
 
 const d = document
@@ -48,6 +50,7 @@ d.addEventListener("DOMContentLoaded", e=>{ // document content loaded event is 
     slider()
     scrollSpy()
     smartVideo()
+    //contactFormValidations()
     
 
 })
@@ -61,5 +64,6 @@ d.addEventListener("keydown", (e)=>{
 
 darktheme(".dark-theme-btn","dark-mode",".ball",".stage")
 networkStatus()
+speechReader()
 
 
